@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Paginini</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/prototype.js"></script>
+	<script src="js/effects.js"></script>
+	<script src="js/glider.js"></script>
+    <style>  
+    .icono{
+            width: 25px;
+            height: 17px;
+            background-image: url(Imagenes/sprite.png);
+            cursor: pointer;
+            margin-top: -106px;
+        }
+    </style>
+    <script >
+		var my_glider = new Glider('my-glider', {duration:0.5});
+	</script>
+    </head>
+<body>
+<!------------------------------------------------------------------------------------------------------> 
+        <div class="row">
+                <div class="col-md-6 verde marjen tamano1">
+                        <h1 class="bradley2" style="font-weight: bold;">BRADLEY COOPER</h1>
+                        <p class="bradley2">I´m a Graphic Designer, Coder & Entrepreneur.<br>
+                                                    Take a look at my portfolio to see what I was working.</p>
+                <div class="cuadrito bradley2">
+                        <i class="glyphicon glyphicon-list-alt"></i>
+                                <span>
+                                    RESUME
+                                </span>
+                </div>
+                <div class="cuadrito bradley2">
+                        <i class="glyphicon glyphicon-paperclip"></i>
+                                <span >
+                                    CONTACT
+                                </span>
+                </div>
+                </div>
+<!------------------------------------------------------------------------------------------------------>        
+                <div class="col-md-3 anaranjado tamano1">
+                        <div class="bradley">
+                                <i class="glyphicon glyphicon-user tamaicon"></i>
+                                        <p class="profile">PROFILE</p>
+                </div>
+                </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------>
+                       
+ 
+<!------------------------------------------------------------------------------------------------------> 
+                <div class="row">
+                        <div class="col-md-3 azul marjen tamano1">
+                                <div class="bradley">
+                                        <i class="glyphicon glyphicon-tasks tamaicon"></i>
+                                                <p class="experience">EXPERIENCE</p>
+                        </div>
+                        </div>
+<!------------------------------------------------------------------------------------------------------> 
+                        <div class="col-md-3 rojo tamano1">
+                                <div class="bradley">
+                                        <i class="glyphicon glyphicon-education tamaicon"></i>
+                                                <p class="education">EDUCATION</p>
+                                </div>
+                                </div>
+<!------------------------------------------------------------------------------------------------------> 
+                        <div class="col-md-3 verde tamano1">
+                            <div class="bradley">
+                                <i class="glyphicon glyphicon-book tamaicon"></i>
+                                    <p class="blog">BLOG</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="marjen2">
+                                <section class="papa">
+                                    <div id="my-glider" class="marjen3">
+		                              <div class="scroller">
+			                             <div class="content">
+				                            <div class="section" id="section1">
+					                           <img src="Imagenes/Hombre1.jpg" class="Tamanoimagen">
+				                            </div>
+				                                <div class="section" id="section2">
+                                                    <img src="Imagenes/Hombre4.jpg" class="Tamanoimagen">
+				                                </div>
+				                                    <div class="section" id="section3">				
+					                                   <img src="Imagenes/Hombre5.jpg" class="Tamanoimagen">
+				                                    </div>
+		                                  </div>			
+	                                   </div>
+   	                                </section>
+                                        <section class="hijo">
+                                            <div class="marjen3">
+	                                           <a href="#" onclick="my_glider.previous();return false;">
+                                                    <button><i class="glyphicon glyphicon-menu-left"></i></button></a>   
+                                                    <a href="#" onclick="my_glider.next();return false"><button><i class="glyphicon glyphicon-menu-right"></i></button></a>
+	                                               <script type="text/javascript" charset="utf-8">
+		                                              var my_glider = new Glider('my-glider', {duration:0.5});
+	                                               </script>
+                                        </section>
+	                                           </div>
+                                    </div>
+                            </div>
+                    </div>  
+            </div>
+<!------------------------------------------------------------------------------------------------------> 
+    
+                                <div class="row">
+                                        <div class="col-md-3 rojootro marjen tamano1">
+                                                <div class="bradley">
+                                                        <i class="glyphicon glyphicon-list tamaicon"></i>
+                                                                <p class="social">SOCIAL MENU</p>
+                                </div>
+                                </div>
+<!------------------------------------------------------------------------------------------------------> 
+                                <div class="col-md-3 azul tamano1">
+                                        <div class="bradley">
+                                                <i class="glyphicon glyphicon-send tamaicon"></i>
+                                                        <p class="contact">CONTACT</p>
+                                </div>
+                                </div>
+<!------------------------------------------------------------------------------------------------------> 
+                                <div class="col-md-3 rojootro tamano1">
+                                        <div class="bradley">
+                                                <i class="glyphicon glyphicon-briefcase tamaicon"></i>
+                                                        <p class="port">PORTFOLIO</p>
+                                </div>
+                                </div>
+                                </div>
+<!------------------------------------------------------------------------------------------------------> 
+    </body>
+</html>

@@ -1,0 +1,120 @@
+body{
+    border: 8px solid #CCC;
+    margin: 0;
+    height: 667px;
+    width: 1359.3px;
+}
+
+.Tamanoimagen{
+    width: 350px;
+    margin-left: -22px;
+}
+
+.hijo{
+    position: relative;
+}
+
+.papa{
+    position: absolute;
+}
+
+.izquierda{
+    margin-left: -15px;
+}
+
+.derecha{
+    margin-left: 259px;
+}
+
+.anaranjado{
+    background-color: orange;
+}
+
+.verde{
+    background-color: rgb(31, 185, 99);
+}
+
+.azul{
+    background-color: rgb(29, 158, 211);
+}
+.row{
+    padding-left: 8px;
+}
+.tamano1{
+    height: 217px;
+}
+.bradley{
+    color: white;
+    margin-left: 138px;
+    margin-top: 81px;
+}
+.bradley2{
+    color: white;
+    margin-left: 15px;
+}
+.parrafo {
+    margin: 0px -11px 10px;
+}
+.description{
+    color: white;
+}
+.rojo{
+    background-color: orangered;
+}
+.marjen{
+    margin-left: 7px;
+}
+.rojootro{
+    background-color: #fc9415;
+}
+.cuadrito{
+    border: 2px solid #FFF;
+    width: 118px;
+    padding: 9px;
+    display: inline-block;
+    text-align: center;
+}
+.tamaicon{
+    font-size: 50px;
+}
+.posesao{
+    margin-top: 10px;
+}
+.social{
+    margin-left: -22px;
+}
+
+.profile{
+    margin-left: -5px;
+}
+.experience{
+    margin-left: -20px;
+}
+.education{
+    margin-left: -10px;
+}
+.blog{
+    margin-left: 7px;
+}
+.contact{
+    margin-left: -4px;
+}
+.port{
+    margin-left: -18px;
+}
+.marjen2{
+    margin-left: -15px;
+}
+.marjen3{
+    margin-top: -50px;
+}
+
+div.scroller { 	 
+	height: 400px;
+	overflow: hidden;
+	}
+	div.scroller div.section {	
+		width:322px;
+        margin-left: -3px;
+		padding:1em;
+		}
